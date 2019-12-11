@@ -1,0 +1,60 @@
+body {
+    width: 766px;
+    font-family: 'Segoe UI';
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header div {
+    float: right;
+    display: block;
+}
+
+header div ul {
+    margin-top: 25px;
+}
+
+header div ul li {
+    display: inline-block;
+    font-size: larger;
+    padding: 0.5rem;
+}
+
+li a {
+    color: #51B0C2;
+    text-decoration: none;
+}
+
+
+/* main */
+
+main {
+    display: flex;
+}
+
+section h1 {
+    font-size: 3rem;
+    color: #51B0C2;
+    margin: 20px auto;
+}
+
+section h2 {
+    font-weight: normal;
+    margin-bottom: 0;
+    color: #4E8324;
+}
+
+section p {
+    margin-top: 0;
+    color: #4E7787;
+}
+
+aside p {
+    color: #808080;
+    margin: 30px auto 10px auto;
+    font-size: 0.8rem;
+    text-align: center;
+}
